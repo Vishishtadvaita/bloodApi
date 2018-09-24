@@ -15,6 +15,8 @@ restService.use(
 restService.use(bodyParser.json());
 
 restService.get("/home", function(req, res) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     res.json([{
             "name": "A+",
             "value": "8",
