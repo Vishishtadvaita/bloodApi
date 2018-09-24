@@ -102,7 +102,6 @@ restService.get("/home", function(req, res) {
         {
             "name": "B-",
             "value": "12",
-            "name": "B+",
             "value": "8",
             "ABP": "true",
             "ABN": "true",
